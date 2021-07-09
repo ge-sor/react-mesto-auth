@@ -1,0 +1,14 @@
+.popup__container-pic {
+    max-width: 85vw;
+    max-height: 85vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 930px) {
+    .popup__container-pic {
+        max-width: 280px;
+    }
+  }
+  

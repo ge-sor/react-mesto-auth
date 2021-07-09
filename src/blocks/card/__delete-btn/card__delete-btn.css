@@ -1,0 +1,10 @@
+.card__delete-btn {
+  visibility: hidden;
+  opacity: 0;
+  background: url(../../../images/card__delete-btn.svg) center no-repeat;
+  height: 20px;
+  width: 19px;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+}
