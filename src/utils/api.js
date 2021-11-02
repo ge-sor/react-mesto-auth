@@ -72,9 +72,9 @@ class Api {
 }
 
 const api = new Api({
-  url: "https://mesto.nomoreparties.co/v1/cohort-24/",
+  url: "https://api.gesor.nomoredomains.rocks/",
   headers: {
-    authorization: "0bb8417e-e432-40e0-85e9-8cd8acf377f0",
+    authorization: `Bearer ${localStorage.getItem('token')}`,
     "Content-Type": "application/json",
   },
 });
